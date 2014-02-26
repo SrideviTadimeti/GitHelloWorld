@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6A2044618BE41AE001E8CD5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6A2044518BE41AE001E8CD5 /* Foundation.framework */; };
+		A6A2044818BE41AE001E8CD5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6A2044718BE41AE001E8CD5 /* CoreGraphics.framework */; };
+		A6A2044A18BE41AE001E8CD5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6A2044918BE41AE001E8CD5 /* UIKit.framework */; };
+		A6A2045018BE41AE001E8CD5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A6A2044E18BE41AE001E8CD5 /* InfoPlist.strings */; };
+		A6A2045218BE41AE001E8CD5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6A2045118BE41AE001E8CD5 /* main.m */; };
+		A6A2045618BE41AE001E8CD5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6A2045518BE41AE001E8CD5 /* AppDelegate.m */; };
+		A6A2045918BE41AE001E8CD5 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6A2045718BE41AE001E8CD5 /* Main_iPhone.storyboard */; };
+		A6A2045C18BE41AE001E8CD5 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6A2045A18BE41AE001E8CD5 /* Main_iPad.storyboard */; };
+		A6A2045F18BE41AE001E8CD5 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6A2045E18BE41AE001E8CD5 /* MasterViewController.m */; };
+		A6A2046218BE41AE001E8CD5 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6A2046118BE41AE001E8CD5 /* DetailViewController.m */; };
+		A6A2046418BE41AE001E8CD5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6A2046318BE41AE001E8CD5 /* Images.xcassets */; };
+		A6A2046B18BE41AE001E8CD5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6A2046A18BE41AE001E8CD5 /* XCTest.framework */; };
+		A6A2046C18BE41AE001E8CD5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6A2044518BE41AE001E8CD5 /* Foundation.framework */; };
+		A6A2046D18BE41AE001E8CD5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6A2044918BE41AE001E8CD5 /* UIKit.framework */; };
+		A6A2047518BE41AE001E8CD5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A6A2047318BE41AE001E8CD5 /* InfoPlist.strings */; };
+		A6A2047718BE41AE001E8CD5 /* GitHelloWorldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A6A2047618BE41AE001E8CD5 /* GitHelloWorldTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A6A2046E18BE41AE001E8CD5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6A2043A18BE41AE001E8CD5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6A2044118BE41AE001E8CD5;
+			remoteInfo = GitHelloWorld;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A6A2044218BE41AE001E8CD5 /* GitHelloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitHelloWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6A2044518BE41AE001E8CD5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A6A2044718BE41AE001E8CD5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A6A2044918BE41AE001E8CD5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A6A2044D18BE41AE001E8CD5 /* GitHelloWorld-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GitHelloWorld-Info.plist"; sourceTree = "<group>"; };
+		A6A2044F18BE41AE001E8CD5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A6A2045118BE41AE001E8CD5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A6A2045318BE41AE001E8CD5 /* GitHelloWorld-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GitHelloWorld-Prefix.pch"; sourceTree = "<group>"; };
+		A6A2045418BE41AE001E8CD5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A6A2045518BE41AE001E8CD5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A6A2045818BE41AE001E8CD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		A6A2045B18BE41AE001E8CD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		A6A2045D18BE41AE001E8CD5 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		A6A2045E18BE41AE001E8CD5 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		A6A2046018BE41AE001E8CD5 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		A6A2046118BE41AE001E8CD5 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		A6A2046318BE41AE001E8CD5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A6A2046918BE41AE001E8CD5 /* GitHelloWorldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitHelloWorldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6A2046A18BE41AE001E8CD5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A6A2047218BE41AE001E8CD5 /* GitHelloWorldTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GitHelloWorldTests-Info.plist"; sourceTree = "<group>"; };
+		A6A2047418BE41AE001E8CD5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A6A2047618BE41AE001E8CD5 /* GitHelloWorldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitHelloWorldTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6A2043F18BE41AE001E8CD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6A2044818BE41AE001E8CD5 /* CoreGraphics.framework in Frameworks */,
+				A6A2044A18BE41AE001E8CD5 /* UIKit.framework in Frameworks */,
+				A6A2044618BE41AE001E8CD5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6A2046618BE41AE001E8CD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6A2046B18BE41AE001E8CD5 /* XCTest.framework in Frameworks */,
+				A6A2046D18BE41AE001E8CD5 /* UIKit.framework in Frameworks */,
+				A6A2046C18BE41AE001E8CD5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6A2043918BE41AE001E8CD5 = {
+			isa = PBXGroup;
+			children = (
+				A6A2044B18BE41AE001E8CD5 /* GitHelloWorld */,
+				A6A2047018BE41AE001E8CD5 /* GitHelloWorldTests */,
+				A6A2044418BE41AE001E8CD5 /* Frameworks */,
+				A6A2044318BE41AE001E8CD5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6A2044318BE41AE001E8CD5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6A2044218BE41AE001E8CD5 /* GitHelloWorld.app */,
+				A6A2046918BE41AE001E8CD5 /* GitHelloWorldTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6A2044418BE41AE001E8CD5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6A2044518BE41AE001E8CD5 /* Foundation.framework */,
+				A6A2044718BE41AE001E8CD5 /* CoreGraphics.framework */,
+				A6A2044918BE41AE001E8CD5 /* UIKit.framework */,
+				A6A2046A18BE41AE001E8CD5 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A6A2044B18BE41AE001E8CD5 /* GitHelloWorld */ = {
+			isa = PBXGroup;
+			children = (
+				A6A2045418BE41AE001E8CD5 /* AppDelegate.h */,
+				A6A2045518BE41AE001E8CD5 /* AppDelegate.m */,
+				A6A2045718BE41AE001E8CD5 /* Main_iPhone.storyboard */,
+				A6A2045A18BE41AE001E8CD5 /* Main_iPad.storyboard */,
+				A6A2045D18BE41AE001E8CD5 /* MasterViewController.h */,
+				A6A2045E18BE41AE001E8CD5 /* MasterViewController.m */,
+				A6A2046018BE41AE001E8CD5 /* DetailViewController.h */,
+				A6A2046118BE41AE001E8CD5 /* DetailViewController.m */,
+				A6A2046318BE41AE001E8CD5 /* Images.xcassets */,
+				A6A2044C18BE41AE001E8CD5 /* Supporting Files */,
+			);
+			path = GitHelloWorld;
+			sourceTree = "<group>";
+		};
+		A6A2044C18BE41AE001E8CD5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6A2044D18BE41AE001E8CD5 /* GitHelloWorld-Info.plist */,
+				A6A2044E18BE41AE001E8CD5 /* InfoPlist.strings */,
+				A6A2045118BE41AE001E8CD5 /* main.m */,
+				A6A2045318BE41AE001E8CD5 /* GitHelloWorld-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A6A2047018BE41AE001E8CD5 /* GitHelloWorldTests */ = {
+			isa = PBXGroup;
+			children = (
+				A6A2047618BE41AE001E8CD5 /* GitHelloWorldTests.m */,
+				A6A2047118BE41AE001E8CD5 /* Supporting Files */,
+			);
+			path = GitHelloWorldTests;
+			sourceTree = "<group>";
+		};
+		A6A2047118BE41AE001E8CD5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6A2047218BE41AE001E8CD5 /* GitHelloWorldTests-Info.plist */,
+				A6A2047318BE41AE001E8CD5 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6A2044118BE41AE001E8CD5 /* GitHelloWorld */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6A2047A18BE41AE001E8CD5 /* Build configuration list for PBXNativeTarget "GitHelloWorld" */;
+			buildPhases = (
+				A6A2043E18BE41AE001E8CD5 /* Sources */,
+				A6A2043F18BE41AE001E8CD5 /* Frameworks */,
+				A6A2044018BE41AE001E8CD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GitHelloWorld;
+			productName = GitHelloWorld;
+			productReference = A6A2044218BE41AE001E8CD5 /* GitHelloWorld.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A6A2046818BE41AE001E8CD5 /* GitHelloWorldTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6A2047D18BE41AE001E8CD5 /* Build configuration list for PBXNativeTarget "GitHelloWorldTests" */;
+			buildPhases = (
+				A6A2046518BE41AE001E8CD5 /* Sources */,
+				A6A2046618BE41AE001E8CD5 /* Frameworks */,
+				A6A2046718BE41AE001E8CD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6A2046F18BE41AE001E8CD5 /* PBXTargetDependency */,
+			);
+			name = GitHelloWorldTests;
+			productName = GitHelloWorldTests;
+			productReference = A6A2046918BE41AE001E8CD5 /* GitHelloWorldTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6A2043A18BE41AE001E8CD5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Jenkins;
+				TargetAttributes = {
+					A6A2046818BE41AE001E8CD5 = {
+						TestTargetID = A6A2044118BE41AE001E8CD5;
+					};
+				};
+			};
+			buildConfigurationList = A6A2043D18BE41AE001E8CD5 /* Build configuration list for PBXProject "GitHelloWorld" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A6A2043918BE41AE001E8CD5;
+			productRefGroup = A6A2044318BE41AE001E8CD5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6A2044118BE41AE001E8CD5 /* GitHelloWorld */,
+				A6A2046818BE41AE001E8CD5 /* GitHelloWorldTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6A2044018BE41AE001E8CD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6A2045C18BE41AE001E8CD5 /* Main_iPad.storyboard in Resources */,
+				A6A2046418BE41AE001E8CD5 /* Images.xcassets in Resources */,
+				A6A2045918BE41AE001E8CD5 /* Main_iPhone.storyboard in Resources */,
+				A6A2045018BE41AE001E8CD5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6A2046718BE41AE001E8CD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6A2047518BE41AE001E8CD5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6A2043E18BE41AE001E8CD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6A2045618BE41AE001E8CD5 /* AppDelegate.m in Sources */,
+				A6A2045F18BE41AE001E8CD5 /* MasterViewController.m in Sources */,
+				A6A2045218BE41AE001E8CD5 /* main.m in Sources */,
+				A6A2046218BE41AE001E8CD5 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6A2046518BE41AE001E8CD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6A2047718BE41AE001E8CD5 /* GitHelloWorldTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A6A2046F18BE41AE001E8CD5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6A2044118BE41AE001E8CD5 /* GitHelloWorld */;
+			targetProxy = A6A2046E18BE41AE001E8CD5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A6A2044E18BE41AE001E8CD5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6A2044F18BE41AE001E8CD5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A6A2045718BE41AE001E8CD5 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6A2045818BE41AE001E8CD5 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		A6A2045A18BE41AE001E8CD5 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6A2045B18BE41AE001E8CD5 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		A6A2047318BE41AE001E8CD5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6A2047418BE41AE001E8CD5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6A2047818BE41AE001E8CD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A6A2047918BE41AE001E8CD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6A2047B18BE41AE001E8CD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GitHelloWorld/GitHelloWorld-Prefix.pch";
+				INFOPLIST_FILE = "GitHelloWorld/GitHelloWorld-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A6A2047C18BE41AE001E8CD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GitHelloWorld/GitHelloWorld-Prefix.pch";
+				INFOPLIST_FILE = "GitHelloWorld/GitHelloWorld-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A6A2047E18BE41AE001E8CD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GitHelloWorld.app/GitHelloWorld";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GitHelloWorld/GitHelloWorld-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "GitHelloWorldTests/GitHelloWorldTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A6A2047F18BE41AE001E8CD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GitHelloWorld.app/GitHelloWorld";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GitHelloWorld/GitHelloWorld-Prefix.pch";
+				INFOPLIST_FILE = "GitHelloWorldTests/GitHelloWorldTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6A2043D18BE41AE001E8CD5 /* Build configuration list for PBXProject "GitHelloWorld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6A2047818BE41AE001E8CD5 /* Debug */,
+				A6A2047918BE41AE001E8CD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6A2047A18BE41AE001E8CD5 /* Build configuration list for PBXNativeTarget "GitHelloWorld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6A2047B18BE41AE001E8CD5 /* Debug */,
+				A6A2047C18BE41AE001E8CD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A6A2047D18BE41AE001E8CD5 /* Build configuration list for PBXNativeTarget "GitHelloWorldTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6A2047E18BE41AE001E8CD5 /* Debug */,
+				A6A2047F18BE41AE001E8CD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6A2043A18BE41AE001E8CD5 /* Project object */;
+}
